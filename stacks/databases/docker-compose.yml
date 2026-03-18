@@ -41,6 +41,10 @@ services:
   mariadb:
     image: mariadb:11.4
     container_name: homelab-mariadb
+    deploy:
+      resources:
+        limits:
+          memory: 1G
     restart: unless-stopped
     environment:
       MARIADB_ROOT_PASSWORD: ${MARIADB_ROOT_PASSWORD}
