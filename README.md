@@ -157,3 +157,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
 ## 📄 License
 
 MIT
+
+
+## Security Tip
+Always use strong passwords and avoid exposing database ports to the public internet.
